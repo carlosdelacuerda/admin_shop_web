@@ -1,0 +1,13 @@
+﻿git : Pushing to https://github.com/carlosdelacuerda/admin_shop_web.git
+En línea: 1 Carácter: 62
++ ... \shop\admin_shop_web'; git push -u origin main --verbose 2>&1 | Out-F ...
++                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Pushing to http...in_shop_web.git 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+POST git-receive-pack (67907 bytes)
+To https://github.com/carlosdelacuerda/admin_shop_web.git
+ * [new branch]      main -> main
+updating local tracking ref 'refs/remotes/origin/main'
+branch 'main' set up to track 'origin/main'.

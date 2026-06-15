@@ -1,0 +1,4 @@
+﻿Initialized empty Git repository in C:/Users/carlo/Documents/shop/admin_shop_web/push_test/.git/
+[master (root-commit) d04a22a] Test push
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md

@@ -1,0 +1,32 @@
+npm verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+npm info using npm@11.9.0
+npm info using node@v22.22.0
+npm verbose title npm install
+npm verbose argv "install" "--package-lock-only" "--loglevel" "verbose"
+npm verbose logfile logs-max:10 dir:C:\Users\carlo\AppData\Local\npm-cache\_logs\2026-06-15T16_35_54_271Z-
+npm verbose logfile C:\Users\carlo\AppData\Local\npm-cache\_logs\2026-06-15T16_35_54_271Z-debug-0.log
+npm http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 988ms
+npm http cache https://registry.npmjs.org/@hono%2fnode-server 112ms (cache hit)
+npm http cache https://registry.npmjs.org/postcss 119ms (cache hit)
+npm http cache https://registry.npmjs.org/next 198ms (cache hit)
+npm http cache https://registry.npmjs.org/@prisma%2fdev 18ms (cache hit)
+npm http cache https://registry.npmjs.org/prisma 76ms (cache hit)
+npm http cache https://registry.npmjs.org/@prisma%2fclient 192ms (cache hit)
+
+up to date, audited 141 packages in 8s
+
+20 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (4 moderate, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm verbose cwd C:\Users\carlo\Documents\shop\admin_shop_web
+npm verbose os Windows_NT 10.0.19045
+npm verbose node v22.22.0
+npm verbose npm  v11.9.0
+npm verbose exit 0
+npm info ok
