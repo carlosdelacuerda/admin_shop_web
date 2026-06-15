@@ -1,0 +1,34 @@
+origin	https://github.com/carlosdelacuerda/admin_shop_web.git (fetch)
+origin	https://github.com/carlosdelacuerda/admin_shop_web.git (push)
+---  
+## main
+?? gh_auth_status.txt
+?? gh_branches.txt
+?? git_diagnostics.txt
+?? git_ls_remote_main.txt
+?? git_origin_url.txt
+?? git_remote_branches.txt
+?? git_status_output.txt
+?? push_log.txt
+?? remote_main.txt
+?? remote_show.txt
+?? terminal_check.txt
+---  
+* main a8b5e097 pk
+---  
+---  
+* remote origin
+  Fetch URL: https://github.com/carlosdelacuerda/admin_shop_web.git
+  Push  URL: https://github.com/carlosdelacuerda/admin_shop_web.git
+  HEAD branch: (unknown)
+---  
+github.com
+  ✓ Logged in to github.com account carlosdelacuerda (keyring)
+  - Active account: true
+  - Git operations protocol: https
+  - Token: gho_************************************
+  - Token scopes: 'gist', 'read:org', 'repo', 'workflow'
+---  
+failed to parse jq expression (line 1, column 1)
+    '.[].name'
+    ^  unexpected token "'"

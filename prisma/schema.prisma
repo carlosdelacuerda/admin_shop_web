@@ -1,0 +1,62 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id String @id @default(cuid())
+  username String @unique
+  passwordHash String
+  createdAt DateTime @default(now())
+}
+
+model DailyRecord {
+  id String @id @default(cuid())
+  date DateTime @unique
+
+  foreignPassers Int
+  localPassers Int
+
+  foreignVisitors Int
+  localVisitors Int
+
+  foreignBuyers Int
+  localBuyers Int
+
+  weather String
+  dayType String
+
+  missingProducts String?
+  notes String?
+
+  sales Sale[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Sale {
+  id String @id @default(cuid())
+  date DateTime
+  type String
+  amountKes Float
+  items String
+
+  dailyRecordId String
+  dailyRecord DailyRecord @relation(fields: [dailyRecordId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+}
+
+model Improvement {
+  id String @id @default(cuid())
+  title String
+  type String
+  description String?
+  implementationDate DateTime
+  createdAt DateTime @default(now())
+}

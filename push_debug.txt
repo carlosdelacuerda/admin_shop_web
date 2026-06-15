@@ -1,0 +1,168 @@
+warning: unknown trace value for 'GIT_TRACE': 1 
+         If you want to trace into a file, then please set GIT_TRACE
+         to an absolute pathname (starting with /)
+warning: unknown trace value for 'GIT_TRACE': 1 
+         If you want to trace into a file, then please set GIT_TRACE
+         to an absolute pathname (starting with /)
+warning: unknown trace value for 'GIT_TRACE': 1 
+         If you want to trace into a file, then please set GIT_TRACE
+         to an absolute pathname (starting with /)
+Pushing to https://github.com/carlosdelacuerda/admin_shop_web.git
+16:42:45.289360 http.c:915              == Info: Could not find host github.com in the .netrc file; using defaults
+16:42:45.401367 http.c:915              == Info: Host github.com:443 was resolved.
+16:42:45.401367 http.c:915              == Info: IPv6: (none)
+16:42:45.401367 http.c:915              == Info: IPv4: 20.87.245.0
+16:42:45.401367 http.c:915              == Info:   Trying 20.87.245.0:443...
+16:42:45.486668 http.c:915              == Info: schannel: disabled automatic use of client certificate
+16:42:45.488666 http.c:915              == Info: ALPN: curl offers http/1.1
+16:42:45.663583 http.c:915              == Info: ALPN: server accepted http/1.1
+16:42:45.663583 http.c:915              == Info: Established connection to github.com (20.87.245.0 port 443) from 192.168.100.218 port 51086 
+16:42:45.663583 http.c:915              == Info: using HTTP/1.x
+16:42:45.663583 http.c:862              => Send header, 0000000213 bytes (0x000000d5)
+16:42:45.663583 http.c:874              => Send header: GET /carlosdelacuerda/admin_shop_web.git/info/refs?service=git-receive-pack HTTP/1.1
+16:42:45.663583 http.c:874              => Send header: Host: github.com
+16:42:45.663583 http.c:874              => Send header: User-Agent: git/2.53.0.windows.1
+16:42:45.663583 http.c:874              => Send header: Accept: */*
+16:42:45.663583 http.c:874              => Send header: Accept-Encoding: deflate, gzip, br, zstd
+16:42:45.663583 http.c:874              => Send header: Pragma: no-cache
+16:42:45.663583 http.c:874              => Send header:
+16:42:45.663583 http.c:915              == Info: Request completely sent off
+16:42:45.974939 http.c:862              <= Recv header, 0000000027 bytes (0x0000001b)
+16:42:45.974939 http.c:874              <= Recv header: HTTP/1.1 401 Unauthorized
+16:42:45.974939 http.c:862              <= Recv header, 0000000026 bytes (0x0000001a)
+16:42:45.974939 http.c:874              <= Recv header: Server: GitHub-Babel/3.0
+16:42:45.974939 http.c:862              <= Recv header, 0000000054 bytes (0x00000036)
+16:42:45.974939 http.c:874              <= Recv header: Content-Security-Policy: default-src 'none'; sandbox
+16:42:45.974939 http.c:862              <= Recv header, 0000000041 bytes (0x00000029)
+16:42:45.974939 http.c:874              <= Recv header: Content-Type: text/plain; charset=UTF-8
+16:42:45.974939 http.c:862              <= Recv header, 0000000040 bytes (0x00000028)
+16:42:45.974939 http.c:874              <= Recv header: www-authenticate: Basic realm="GitHub"
+16:42:45.974939 http.c:862              <= Recv header, 0000000020 bytes (0x00000014)
+16:42:45.974939 http.c:874              <= Recv header: Content-Length: 26
+16:42:45.974939 http.c:862              <= Recv header, 0000000037 bytes (0x00000025)
+16:42:45.974939 http.c:874              <= Recv header: Date: Mon, 15 Jun 2026 14:42:47 GMT
+16:42:45.974939 http.c:862              <= Recv header, 0000000023 bytes (0x00000017)
+16:42:45.974939 http.c:874              <= Recv header: X-Frame-Options: DENY
+16:42:45.974939 http.c:862              <= Recv header, 0000000073 bytes (0x00000049)
+16:42:45.974939 http.c:874              <= Recv header: Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+16:42:45.974939 http.c:862              <= Recv header, 0000000055 bytes (0x00000037)
+16:42:45.974939 http.c:874              <= Recv header: X-GitHub-Request-Id: C78E:27699A:5C662:7E2EB:6A300F66
+16:42:45.974939 http.c:862              <= Recv header, 0000000002 bytes (0x00000002)
+16:42:45.974939 http.c:874              <= Recv header:
+16:42:45.974939 http.c:915              == Info: Connection #0 to host github.com:443 left intact
+16:42:46.195547 http.c:915              == Info: Reusing existing https: connection with host github.com
+16:42:46.195547 http.c:915              == Info: Server auth using Basic with user 'carlosdelacuerda'
+16:42:46.195547 http.c:862              => Send header, 0000000312 bytes (0x00000138)
+16:42:46.195547 http.c:874              => Send header: GET /carlosdelacuerda/admin_shop_web.git/info/refs?service=git-receive-pack HTTP/1.1
+16:42:46.195547 http.c:874              => Send header: Host: github.com
+16:42:46.195547 http.c:874              => Send header: Authorization: Basic <redacted>
+16:42:46.195547 http.c:874              => Send header: User-Agent: git/2.53.0.windows.1
+16:42:46.195547 http.c:874              => Send header: Accept: */*
+16:42:46.195547 http.c:874              => Send header: Accept-Encoding: deflate, gzip, br, zstd
+16:42:46.195547 http.c:874              => Send header: Pragma: no-cache
+16:42:46.195547 http.c:874              => Send header:
+16:42:46.195547 http.c:915              == Info: Request completely sent off
+16:42:46.695003 http.c:862              <= Recv header, 0000000017 bytes (0x00000011)
+16:42:46.695003 http.c:874              <= Recv header: HTTP/1.1 200 OK
+16:42:46.695003 http.c:862              <= Recv header, 0000000026 bytes (0x0000001a)
+16:42:46.695003 http.c:874              <= Recv header: Server: GitHub-Babel/3.0
+16:42:46.695003 http.c:862              <= Recv header, 0000000060 bytes (0x0000003c)
+16:42:46.695003 http.c:874              <= Recv header: Content-Type: application/x-git-receive-pack-advertisement
+16:42:46.695003 http.c:862              <= Recv header, 0000000054 bytes (0x00000036)
+16:42:46.695003 http.c:874              <= Recv header: Content-Security-Policy: default-src 'none'; sandbox
+16:42:46.695003 http.c:862              <= Recv header, 0000000040 bytes (0x00000028)
+16:42:46.695003 http.c:874              <= Recv header: expires: Fri, 01 Jan 1980 00:00:00 GMT
+16:42:46.695003 http.c:862              <= Recv header, 0000000018 bytes (0x00000012)
+16:42:46.695003 http.c:874              <= Recv header: pragma: no-cache
+16:42:46.695003 http.c:862              <= Recv header, 0000000053 bytes (0x00000035)
+16:42:46.695003 http.c:874              <= Recv header: Cache-Control: no-cache, max-age=0, must-revalidate
+16:42:46.695003 http.c:862              <= Recv header, 0000000023 bytes (0x00000017)
+16:42:46.695003 http.c:874              <= Recv header: Vary: Accept-Encoding
+16:42:46.695003 http.c:862              <= Recv header, 0000000028 bytes (0x0000001c)
+16:42:46.695003 http.c:874              <= Recv header: Transfer-Encoding: chunked
+16:42:46.695003 http.c:862              <= Recv header, 0000000037 bytes (0x00000025)
+16:42:46.695003 http.c:874              <= Recv header: Date: Mon, 15 Jun 2026 14:42:47 GMT
+16:42:46.695003 http.c:862              <= Recv header, 0000000023 bytes (0x00000017)
+16:42:46.695003 http.c:874              <= Recv header: X-Frame-Options: DENY
+16:42:46.695003 http.c:862              <= Recv header, 0000000073 bytes (0x00000049)
+16:42:46.695003 http.c:874              <= Recv header: Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+16:42:46.695003 http.c:862              <= Recv header, 0000000055 bytes (0x00000037)
+16:42:46.695003 http.c:874              <= Recv header: X-GitHub-Request-Id: C78E:27699A:5C6A4:7E34E:6A300F67
+16:42:46.695003 http.c:862              <= Recv header, 0000000002 bytes (0x00000002)
+16:42:46.695003 http.c:874              <= Recv header:
+16:42:46.695003 http.c:915              == Info: Connection #0 to host github.com:443 left intact
+warning: unknown trace value for 'GIT_TRACE': 1 
+         If you want to trace into a file, then please set GIT_TRACE
+         to an absolute pathname (starting with /)
+warning: unknown trace value for 'GIT_TRACE': 1 
+         If you want to trace into a file, then please set GIT_TRACE
+         to an absolute pathname (starting with /)
+warning: unknown trace value for 'GIT_TRACE_PACKET': 1 
+         If you want to trace into a file, then please set GIT_TRACE_PACKET
+         to an absolute pathname (starting with /)
+warning: unknown trace value for 'GIT_TRACE': 1 
+         If you want to trace into a file, then please set GIT_TRACE
+         to an absolute pathname (starting with /)
+warning: unknown trace value for 'GIT_TRACE_PACKET': 1 
+         If you want to trace into a file, then please set GIT_TRACE_PACKET
+         to an absolute pathname (starting with /)
+warning: unknown trace value for 'GIT_TRACE': 1 
+         If you want to trace into a file, then please set GIT_TRACE
+         to an absolute pathname (starting with /)
+Enumerating objects: 17145, done.
+Counting objects:   0% (1/17145)Counting objects:   1% (172/17145)Counting objects:   2% (343/17145)Counting objects:   3% (515/17145)Counting objects:   4% (686/17145)Counting objects:   5% (858/17145)Counting objects:   6% (1029/17145)Counting objects:   7% (1201/17145)Counting objects:   8% (1372/17145)Counting objects:   9% (1544/17145)Counting objects:  10% (1715/17145)Counting objects:  11% (1886/17145)Counting objects:  12% (2058/17145)Counting objects:  13% (2229/17145)Counting objects:  14% (2401/17145)Counting objects:  15% (2572/17145)Counting objects:  16% (2744/17145)Counting objects:  17% (2915/17145)Counting objects:  18% (3087/17145)Counting objects:  19% (3258/17145)Counting objects:  20% (3429/17145)Counting objects:  21% (3601/17145)Counting objects:  22% (3772/17145)Counting objects:  23% (3944/17145)Counting objects:  24% (4115/17145)Counting objects:  25% (4287/17145)Counting objects:  26% (4458/17145)Counting objects:  27% (4630/17145)Counting objects:  28% (4801/17145)Counting objects:  29% (4973/17145)Counting objects:  30% (5144/17145)Counting objects:  31% (5315/17145)Counting objects:  32% (5487/17145)Counting objects:  33% (5658/17145)Counting objects:  34% (5830/17145)Counting objects:  35% (6001/17145)Counting objects:  36% (6173/17145)Counting objects:  37% (6344/17145)Counting objects:  38% (6516/17145)Counting objects:  39% (6687/17145)Counting objects:  40% (6858/17145)Counting objects:  41% (7030/17145)Counting objects:  42% (7201/17145)Counting objects:  43% (7373/17145)Counting objects:  44% (7544/17145)Counting objects:  45% (7716/17145)Counting objects:  46% (7887/17145)Counting objects:  47% (8059/17145)Counting objects:  48% (8230/17145)Counting objects:  49% (8402/17145)Counting objects:  50% (8573/17145)Counting objects:  51% (8744/17145)Counting objects:  52% (8916/17145)Counting objects:  53% (9087/17145)Counting objects:  54% (9259/17145)Counting objects:  55% (9430/17145)Counting objects:  56% (9602/17145)Counting objects:  57% (9773/17145)Counting objects:  58% (9945/17145)Counting objects:  59% (10116/17145)Counting objects:  60% (10287/17145)Counting objects:  61% (10459/17145)Counting objects:  62% (10630/17145)Counting objects:  63% (10802/17145)Counting objects:  64% (10973/17145)Counting objects:  65% (11145/17145)Counting objects:  66% (11316/17145)Counting objects:  67% (11488/17145)Counting objects:  68% (11659/17145)Counting objects:  69% (11831/17145)Counting objects:  70% (12002/17145)Counting objects:  71% (12173/17145)Counting objects:  72% (12345/17145)Counting objects:  73% (12516/17145)Counting objects:  74% (12688/17145)Counting objects:  75% (12859/17145)Counting objects:  76% (13031/17145)Counting objects:  77% (13202/17145)Counting objects:  78% (13374/17145)Counting objects:  79% (13545/17145)Counting objects:  80% (13716/17145)Counting objects:  81% (13888/17145)Counting objects:  82% (14059/17145)Counting objects:  83% (14231/17145)Counting objects:  84% (14402/17145)Counting objects:  85% (14574/17145)Counting objects:  86% (14745/17145)Counting objects:  87% (14917/17145)Counting objects:  88% (15088/17145)Counting objects:  89% (15260/17145)Counting objects:  90% (15431/17145)Counting objects:  91% (15602/17145)Counting objects:  92% (15774/17145)Counting objects:  93% (15945/17145)Counting objects:  94% (16117/17145)Counting objects:  95% (16288/17145)Counting objects:  96% (16460/17145)Counting objects:  97% (16631/17145)Counting objects:  98% (16803/17145)Counting objects:  99% (16974/17145)Counting objects: 100% (17145/17145)Counting objects: 100% (17145/17145), done.
+Delta compression using up to 4 threads
+Compressing objects:   0% (1/11430)Compressing objects:   1% (115/11430)Compressing objects:   2% (229/11430)Compressing objects:   3% (343/11430)Compressing objects:   4% (458/11430)Compressing objects:   5% (572/11430)Compressing objects:   6% (686/11430)Compressing objects:   7% (801/11430)Compressing objects:   8% (915/11430)Compressing objects:   9% (1029/11430)Compressing objects:  10% (1143/11430)Compressing objects:  11% (1258/11430)Compressing objects:  12% (1372/11430)Compressing objects:  13% (1486/11430)Compressing objects:  14% (1601/11430)Compressing objects:  15% (1715/11430)Compressing objects:  16% (1829/11430)Compressing objects:  17% (1944/11430)Compressing objects:  18% (2058/11430)Compressing objects:  19% (2172/11430)Compressing objects:  20% (2286/11430)Compressing objects:  21% (2401/11430)Compressing objects:  22% (2515/11430)Compressing objects:  23% (2629/11430)Compressing objects:  24% (2744/11430)Compressing objects:  25% (2858/11430)Compressing objects:  26% (2972/11430)Compressing objects:  27% (3087/11430)Compressing objects:  28% (3201/11430)Compressing objects:  29% (3315/11430)Compressing objects:  30% (3429/11430)Compressing objects:  31% (3544/11430)Compressing objects:  32% (3658/11430)Compressing objects:  33% (3772/11430)Compressing objects:  34% (3887/11430)Compressing objects:  35% (4001/11430)Compressing objects:  36% (4115/11430)Compressing objects:  37% (4230/11430)Compressing objects:  38% (4344/11430)Compressing objects:  39% (4458/11430)Compressing objects:  40% (4572/11430)Compressing objects:  41% (4687/11430)Compressing objects:  42% (4801/11430)Compressing objects:  43% (4915/11430)Compressing objects:  44% (5030/11430)Compressing objects:  45% (5144/11430)Compressing objects:  46% (5258/11430)Compressing objects:  47% (5373/11430)Compressing objects:  48% (5487/11430)Compressing objects:  49% (5601/11430)Compressing objects:  50% (5715/11430)Compressing objects:  51% (5830/11430)Compressing objects:  52% (5944/11430)Compressing objects:  53% (6058/11430)Compressing objects:  54% (6173/11430)Compressing objects:  55% (6287/11430)Compressing objects:  56% (6401/11430)Compressing objects:  57% (6516/11430)Compressing objects:  58% (6630/11430)Compressing objects:  59% (6744/11430)Compressing objects:  60% (6858/11430)Compressing objects:  61% (6973/11430)Compressing objects:  62% (7087/11430)Compressing objects:  63% (7201/11430)Compressing objects:  64% (7316/11430)Compressing objects:  65% (7430/11430)Compressing objects:  66% (7544/11430)Compressing objects:  67% (7659/11430)Compressing objects:  68% (7773/11430)Compressing objects:  69% (7887/11430)Compressing objects:  70% (8001/11430)Compressing objects:  71% (8116/11430)Compressing objects:  72% (8230/11430)Compressing objects:  73% (8344/11430)Compressing objects:  74% (8459/11430)Compressing objects:  75% (8573/11430)Compressing objects:  76% (8687/11430)Compressing objects:  77% (8802/11430)Compressing objects:  78% (8916/11430)Compressing objects:  79% (9030/11430)Compressing objects:  80% (9144/11430)Compressing objects:  81% (9259/11430)Compressing objects:  82% (9373/11430)Compressing objects:  83% (9487/11430)Compressing objects:  84% (9602/11430)Compressing objects:  85% (9716/11430)Compressing objects:  86% (9830/11430)Compressing objects:  87% (9945/11430)Compressing objects:  88% (10059/11430)Compressing objects:  89% (10173/11430)Compressing objects:  90% (10287/11430)Compressing objects:  91% (10402/11430)Compressing objects:  92% (10516/11430)Compressing objects:  93% (10630/11430)Compressing objects:  94% (10745/11430)Compressing objects:  95% (10859/11430)Compressing objects:  96% (10973/11430)Compressing objects:  97% (11088/11430)Compressing objects:  98% (11202/11430)Compressing objects:  99% (11316/11430)Compressing objects: 100% (11430/11430)Compressing objects: 100% (11430/11430), done.
+Writing objects:   0% (1/17145)Writing objects:   1% (172/17145)Writing objects:   2% (343/17145)Writing objects:   3% (515/17145)Writing objects:   4% (686/17145), 68.46 MiB | 136.91 MiB/sWriting objects:   5% (858/17145), 68.46 MiB | 136.91 MiB/sWriting objects:   6% (1029/17145), 68.46 MiB | 136.91 MiB/sWriting objects:   7% (1201/17145), 68.46 MiB | 136.91 MiB/sWriting objects:   8% (1372/17145), 68.46 MiB | 136.91 MiB/sWriting objects:   9% (1544/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  10% (1715/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  11% (1886/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  12% (2058/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  13% (2229/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  14% (2401/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  15% (2573/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  16% (2744/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  17% (2916/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  18% (3087/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  19% (3258/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  20% (3429/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  21% (3601/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  22% (3772/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  23% (3944/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  24% (4115/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  25% (4288/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  26% (4458/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  27% (4630/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  28% (4802/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  29% (4973/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  30% (5144/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  31% (5315/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  32% (5487/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  33% (5658/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  34% (5830/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  35% (6001/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  36% (6173/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  37% (6344/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  38% (6516/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  39% (6687/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  40% (6858/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  41% (7031/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  42% (7201/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  43% (7373/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  44% (7545/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  45% (7716/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  46% (7887/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  47% (8059/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  48% (8230/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  49% (8402/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  50% (8573/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  51% (8745/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  52% (8916/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  53% (9087/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  54% (9259/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  55% (9430/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  56% (9602/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  57% (9774/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  58% (9945/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  59% (10116/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  60% (10287/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  61% (10459/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  62% (10630/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  63% (10802/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  64% (10973/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  65% (11145/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  66% (11316/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  67% (11488/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  68% (11659/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  69% (11831/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  70% (12002/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  71% (12173/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  72% (12345/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  73% (12517/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  74% (12688/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  75% (12859/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  76% (13031/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  77% (13202/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  78% (13375/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  79% (13546/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  80% (13717/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  81% (13888/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  82% (14059/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  83% (14231/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  84% (14402/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  85% (14574/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  86% (14745/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  87% (14917/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  88% (15088/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  89% (15260/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  90% (15431/17145), 68.46 MiB | 136.91 MiB/sWriting objects:  90% (15589/17145), 140.22 MiB | 140.21 MiB/sWriting objects:  91% (15602/17145), 140.22 MiB | 140.21 MiB/sWriting objects:  92% (15774/17145), 140.22 MiB | 140.21 MiB/sWriting objects:  93% (15945/17145), 140.22 MiB | 140.21 MiB/sWriting objects:  94% (16117/17145), 140.22 MiB | 140.21 MiB/sWriting objects:  95% (16288/17145), 140.22 MiB | 140.21 MiB/sWriting objects:  96% (16460/17145), 140.22 MiB | 140.21 MiB/sWriting objects:  97% (16631/17145), 140.22 MiB | 140.21 MiB/sWriting objects:  98% (16803/17145), 140.22 MiB | 140.21 MiB/sWriting objects:  99% (16974/17145), 140.22 MiB | 140.21 MiB/sWriting objects: 100% (17145/17145), 140.22 MiB | 140.21 MiB/sWriting objects: 100% (17145/17145), 156.61 MiB | 139.45 MiB/s, done.
+Total 17145 (delta 4999), reused 17122 (delta 4991), pack-reused 0 (from 0)
+POST git-receive-pack (164221432 bytes)
+16:42:48.985603 http.c:915              == Info: Reusing existing https: connection with host github.com
+16:42:48.985603 http.c:915              == Info: Server auth using Basic with user 'carlosdelacuerda'
+16:42:48.985603 http.c:862              => Send header, 0000000392 bytes (0x00000188)
+16:42:48.985603 http.c:874              => Send header: POST /carlosdelacuerda/admin_shop_web.git/git-receive-pack HTTP/1.1
+16:42:48.985603 http.c:874              => Send header: Host: github.com
+16:42:48.985603 http.c:874              => Send header: Authorization: Basic <redacted>
+16:42:48.985603 http.c:874              => Send header: User-Agent: git/2.53.0.windows.1
+16:42:48.985603 http.c:874              => Send header: Accept-Encoding: deflate, gzip, br, zstd
+16:42:48.985603 http.c:874              => Send header: Content-Type: application/x-git-receive-pack-request
+16:42:48.985603 http.c:874              => Send header: Accept: application/x-git-receive-pack-result
+16:42:48.985603 http.c:874              => Send header: Content-Length: 164221432
+16:42:48.985603 http.c:874              => Send header:
+16:50:30.413457 http.c:915              == Info: upload completely sent off: 164221432 bytes
+16:50:31.033249 http.c:862              <= Recv header, 0000000017 bytes (0x00000011)
+16:50:31.033249 http.c:874              <= Recv header: HTTP/1.1 200 OK
+16:50:31.033249 http.c:862              <= Recv header, 0000000026 bytes (0x0000001a)
+16:50:31.033249 http.c:874              <= Recv header: Server: GitHub-Babel/3.0
+16:50:31.033249 http.c:862              <= Recv header, 0000000053 bytes (0x00000035)
+16:50:31.033249 http.c:874              <= Recv header: Content-Type: application/x-git-receive-pack-result
+16:50:31.033249 http.c:862              <= Recv header, 0000000054 bytes (0x00000036)
+16:50:31.033249 http.c:874              <= Recv header: Content-Security-Policy: default-src 'none'; sandbox
+16:50:31.033249 http.c:862              <= Recv header, 0000000040 bytes (0x00000028)
+16:50:31.033249 http.c:874              <= Recv header: expires: Fri, 01 Jan 1980 00:00:00 GMT
+16:50:31.033249 http.c:862              <= Recv header, 0000000018 bytes (0x00000012)
+16:50:31.033249 http.c:874              <= Recv header: pragma: no-cache
+16:50:31.033249 http.c:862              <= Recv header, 0000000053 bytes (0x00000035)
+16:50:31.033249 http.c:874              <= Recv header: Cache-Control: no-cache, max-age=0, must-revalidate
+16:50:31.033249 http.c:862              <= Recv header, 0000000023 bytes (0x00000017)
+16:50:31.033249 http.c:874              <= Recv header: Vary: Accept-Encoding
+16:50:31.033249 http.c:862              <= Recv header, 0000000028 bytes (0x0000001c)
+16:50:31.033249 http.c:874              <= Recv header: Transfer-Encoding: chunked
+16:50:31.033249 http.c:862              <= Recv header, 0000000037 bytes (0x00000025)
+16:50:31.033249 http.c:874              <= Recv header: Date: Mon, 15 Jun 2026 14:50:31 GMT
+16:50:31.033249 http.c:862              <= Recv header, 0000000023 bytes (0x00000017)
+16:50:31.033249 http.c:874              <= Recv header: X-Frame-Options: DENY
+16:50:31.033249 http.c:862              <= Recv header, 0000000073 bytes (0x00000049)
+16:50:31.033249 http.c:874              <= Recv header: Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+16:50:31.033249 http.c:862              <= Recv header, 0000000055 bytes (0x00000037)
+16:50:31.033249 http.c:874              <= Recv header: X-GitHub-Request-Id: C78E:27699A:5C7E1:7E4D3:6A300F67
+16:50:31.033249 http.c:862              <= Recv header, 0000000002 bytes (0x00000002)
+16:50:31.033249 http.c:874              <= Recv header:
+remote: Resolving deltas:   0% (0/4999)        remote: Resolving deltas:   1% (50/4999)        remote: Resolving deltas:   2% (100/4999)        remote: Resolving deltas:   3% (150/4999)        remote: Resolving deltas:   4% (200/4999)        remote: Resolving deltas:   5% (250/4999)        remote: Resolving deltas:   6% (300/4999)        remote: Resolving deltas:   7% (350/4999)        remote: Resolving deltas:   8% (400/4999)        remote: Resolving deltas:   9% (450/4999)        remote: Resolving deltas:  10% (500/4999)        remote: Resolving deltas:  11% (550/4999)        remote: Resolving deltas:  12% (600/4999)        remote: Resolving deltas:  13% (650/4999)        remote: Resolving deltas:  14% (700/4999)        remote: Resolving deltas:  15% (750/4999)        remote: Resolving deltas:  16% (800/4999)        remote: Resolving deltas:  17% (850/4999)        remote: Resolving deltas:  18% (900/4999)        remote: Resolving deltas:  19% (950/4999)        remote: Resolving deltas:  20% (1000/4999)        remote: Resolving deltas:  21% (1050/4999)        remote: Resolving deltas:  22% (1100/4999)        remote: Resolving deltas:  23% (1150/4999)        remote: Resolving deltas:  24% (1200/4999)        remote: Resolving deltas:  25% (1250/4999)        remote: Resolving deltas:  26% (1300/4999)        remote: Resolving deltas:  27% (1350/4999)        remote: Resolving deltas:  28% (1400/4999)        remote: Resolving deltas:  29% (1450/4999)        remote: Resolving deltas:  30% (1500/4999)        remote: Resolving deltas:  31% (1550/4999)        remote: Resolving deltas:  32% (1600/4999)        remote: Resolving deltas:  33% (1650/4999)        remote: Resolving deltas:  34% (1700/4999)        remote: Resolving deltas:  35% (1750/4999)        remote: Resolving deltas:  36% (1800/4999)        remote: Resolving deltas:  37% (1850/4999)        remote: Resolving deltas:  38% (1900/4999)        remote: Resolving deltas:  39% (1950/4999)        remote: Resolving deltas:  40% (2000/4999)        remote: Resolving deltas:  41% (2050/4999)        remote: Resolving deltas:  42% (2100/4999)        remote: Resolving deltas:  43% (2150/4999)        remote: Resolving deltas:  44% (2200/4999)        remote: Resolving deltas:  45% (2250/4999)        remote: Resolving deltas:  46% (2300/4999)        remote: Resolving deltas:  47% (2350/4999)        remote: Resolving deltas:  48% (2400/4999)        remote: Resolving deltas:  49% (2450/4999)        remote: Resolving deltas:  50% (2500/4999)        remote: Resolving deltas:  51% (2550/4999)        remote: Resolving deltas:  52% (2600/4999)        remote: Resolving deltas:  53% (2650/4999)        remote: Resolving deltas:  54% (2700/4999)        remote: Resolving deltas:  55% (2750/4999)        remote: Resolving deltas:  56% (2800/4999)        remote: Resolving deltas:  57% (2850/4999)        remote: Resolving deltas:  58% (2900/4999)        remote: Resolving deltas:  59% (2950/4999)        remote: Resolving deltas:  60% (3000/4999)        remote: Resolving deltas:  61% (3050/4999)        remote: Resolving deltas:  62% (3100/4999)        remote: Resolving deltas:  63% (3150/4999)        remote: Resolving deltas:  64% (3200/4999)        remote: Resolving deltas:  65% (3250/4999)        remote: Resolving deltas:  66% (3300/4999)        remote: Resolving deltas:  67% (3350/4999)        remote: Resolving deltas:  68% (3400/4999)        remote: Resolving deltas:  69% (3450/4999)        remote: Resolving deltas:  70% (3500/4999)        remote: Resolving deltas:  71% (3550/4999)        remote: Resolving deltas:  72% (3600/4999)        remote: Resolving deltas:  73% (3650/4999)        remote: Resolving deltas:  74% (3700/4999)        remote: Resolving deltas:  75% (3750/4999)        remote: Resolving deltas:  76% (3800/4999)        remote: Resolving deltas:  77% (3850/4999)        remote: Resolving deltas:  78% (3900/4999)        remote: Resolving deltas:  79% (3950/4999)        remote: Resolving deltas:  80% (4000/4999)        remote: Resolving deltas:  81% (4050/4999)        remote: Resolving deltas:  82% (4100/4999)        remote: Resolving deltas:  83% (4150/4999)        remote: Resolving deltas:  84% (4200/4999)        remote: Resolving deltas:  85% (4250/4999)        remote: Resolving deltas:  86% (4300/4999)        remote: Resolving deltas:  87% (4350/4999)        remote: Resolving deltas:  88% (4400/4999)        remote: Resolving deltas:  89% (4450/4999)        remote: Resolving deltas:  90% (4500/4999)        remote: Resolving deltas:  91% (4550/4999)        remote: Resolving deltas:  92% (4600/4999)        remote: Resolving deltas:  93% (4650/4999)        remote: Resolving deltas:  94% (4700/4999)        remote: Resolving deltas:  95% (4750/4999)        remote: Resolving deltas:  96% (4800/4999)        remote: Resolving deltas:  97% (4850/4999)        remote: Resolving deltas:  98% (4900/4999)        remote: Resolving deltas:  99% (4950/4999)        remote: Resolving deltas: 100% (4999/4999)        remote: Resolving deltas: 100% (4999/4999), done.        
+16:50:31.808660 http.c:915              == Info: Connection #0 to host github.com:443 left intact
+remote: error: Trace: 1d52ad9d3c859ad7340151c96b2727879a84e80d33939fe73a7efc2c017a0fc6        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File node_modules/@next/swc-win32-x64-msvc/next-swc.win32-x64-msvc.node is 176.65 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To https://github.com/carlosdelacuerda/admin_shop_web.git
+ ! [remote rejected]   main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/carlosdelacuerda/admin_shop_web.git'
